@@ -1,0 +1,4 @@
+console ./testing/a
+manager ./testing/b
+script ./testing/aa
+lib ./testing/bb
