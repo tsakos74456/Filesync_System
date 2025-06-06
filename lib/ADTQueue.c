@@ -107,7 +107,7 @@ Node queue_last(Queue queue) {
     if (queue->size == 0) {
         return QUEUE_EOF;
     }
-    return queue->last->value;
+    return queue->last;
 };
 
 Node queue_next(Queue queue, Node node) {
