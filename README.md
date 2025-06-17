@@ -4,6 +4,7 @@ a space (' ') separates the source with the target directory and the target dire
 user/photos backup/photos
 user/acc backup/acc
 
+Also the given paths must be relative not absolute. Otherwise it will just return as error as it won't find the path.
 
 So the format should be like that after the last pair's target directory shoulf be a vhange of line otherwise this pair wouldn't be able to be read
 FOR FSS_MANAGER AND FSS_WORKER: 
